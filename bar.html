@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<meta name="description" content="mvc3" />
+  <meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<p id="menu" align="center">Options
+  <select class="options" id="options">
+      <option value="per capita">per capita</option>
+      <option value="in dollars">in dollars</option>
+  </select>   
+</p>
+
+  <title></title>
+</head>
+<body>
+	<script>
+		// ******************** Chart code ***********************
+
+// BarChart function -- a new instance will build a chart
+var BarChart = function(sets) {
+  // Get settings from "sets" object"
+  var self = this
+  self.data = sets.data
+  self.height = sets.height
+  self.width = sets.width
+  self.highlighted = sets.highlighted
+  
+  // Append div and svg
+  self.div = d3.select('body').append('div')
+    .style('height', self.height + 'px')
+    .style('width', self.width + 'px')
+    .style('display', 'inline-block')
+  
+  self.svg = self.div.append('svg')
+  
+  // Define rect positioning function
+  self.rectFunc = function(rect) {
+    rect.attr('width', 9)
+      .attr('height', function(d){return d.y})
+      .attr('x', function(d){return d.x})
+      .attr('y', function(d) {return self.height - d.y})
+      .style('fill', function(d,i) {
+          return self.highlighted == i ? 'red' : 'black' 
+    })
+  }
+  
+  // Draw
+  self.draw()
+}
+
+    d3.csv("dac.csv", function(datum) {
+      //console.log(datum);
+    	var y=[];
+    	for(var i=0;i<datum.length;i++){
+    		y[i] = Number(datum[i].CostPerCapita);
+    		//console.log(datum[i].CostInDollars);
+}
+//console.log(y);
+// Function to draw rects
+BarChart.prototype.draw = function() {
+  var self = this
+  
+  // Bind data
+  self.rects = self.svg.selectAll('rect')
+    .data(self.data)
+  
+  // Enter, exit, transition bars
+  self.rects.enter().append('rect').call(self.rectFunc)
+  self.rects.exit().remove()
+  self.svg.selectAll('rect').transition().duration(2000).call(self.rectFunc)
+}
+
+// Update function: currently just adjusts highlighted element
+BarChart.prototype.update = function(highlighted) {
+  var self= this
+  self.highlighted = highlighted
+  self.draw()
+}
+
+
+
+
+// ******************** View code ***********************
+
+// BarView code will instantiate an entire new view (set of charts)
+var BarView = function(chartNum) {
+  var self = this
+  self.chartNumber = chartNum
+  self.obs = 20
+  self.charts = []
+  self.highlighted = 2
+  self.build()
+  //self.data = []
+}
+
+// Builf function
+BarView.prototype.build = function() {
+  var self = this
+  self.makeData()
+  self.makeCharts()
+  self.makeInteractive()
+}
+
+var j=[];
+	for(var i=0;i<datum.length;i++){
+    		j[i]=i;
+    		//console.log(datum[i].CostInDollars);
+}
+//console.log(j);
+//console.log(y)
+
+var max = 0.0
+
+for(var m=0;m<y.length;m++) {
+	if(y[m]>max) max=y[m];
+}
+
+//console.log(max);
+// Function to make data
+BarView.prototype.makeData = function(obs) {
+  
+  var self = this
+  self.data = []
+
+  d3.range(self.chartNumber).map(function(d,cn) {
+    var dat = []
+
+    d3.range(self.obs).map(function(d,i){
+    //console.log(self.charts);
+    
+      
+      dat.push({id:i, x:i*10, y:y[i+(20*cn)]*5})
+      //lol.push({id:i, x:i*10, y:(y[i+(20*cn)] / max) * 100})
+      //console.log(y[i+(20*cn)]);
+    })
+    self.data.push(dat)
+    //console.log(data);
+  })
+
+}
+
+// Function to make charts
+BarView.prototype.makeCharts = function() {
+  var self = this
+  d3.range(self.chartNumber).map(function(d){
+
+    self.charts[d] = new BarChart({
+        highlighted:self.highlighted, 
+        data:self.data[d],
+        height:100, 
+        width:300
+     })
+  })
+  
+}
+//console.log(y[1]);
+// Function to apply interactivity
+BarView.prototype.makeInteractive = function() {
+  var self = this
+  d3.selectAll('rect').on('click', function(d) {
+    self.charts.map(function(chart){
+      chart.update(d.id)
+    })
+  }).attr("title",function(datum,i){
+  	//console.log(i.id);
+  	//console.log(datum);
+  	return "Cost Per Capita: "+(datum["y"]); //self.charts[data];
+
+  });
+  
+}
+
+
+// ******************** This would be app code to instantiate view ************
+
+var myView = new BarView(12)
+
+$("rect").tooltip({
+    'container': 'body',
+    'placement': 'bottom'
+}); 
+
+
+
+
+
+d3.select(".options")
+  .on("change",function(){
+    //console.log("hello");
+    //console.log(datum);
+    
+
+  // BarChart function -- a new instance will build a chart
+var BarChart = function(sets) {
+  // Get settings from "sets" object"
+  var self = this
+  self.data = sets.data
+  self.height = sets.height
+  self.width = sets.width
+  self.highlighted = sets.highlighted
+  //console.log(self.data);  
+  
+  // Append div and svg
+  self.div = d3.select('body').append('div')
+    .style('height', self.height + 'px')
+    .style('width', self.width + 'px')
+    .style('display', 'inline-block')
+  
+  self.svg = self.div.append('svg')
+  
+  // Define rect positioning function
+  self.rectFunc = function(rect) {
+    rect.attr('width', 9)
+      .attr('height', function(d){return d.y})
+      .attr('x', function(d){return d.x})
+      .attr('y', function(d) {return self.height - d.y})
+      .style('fill', function(d,i) {
+          return self.highlighted == i ? 'red' : 'black' 
+    })
+  }
+  
+  // Draw
+  self.draw()
+}
+   
+
+  var y=[];
+      for(var i=0;i<datum.length;i++){
+        y[i] = Number(datum[i].CostInDollars);
+        //console.log(datum[i].CostInDollars);
+
+}
+//console.log(y);
+// Function to draw rects
+BarChart.prototype.draw = function() {
+  var self = this
+  
+  // Bind data
+  self.rects = self.svg.selectAll('rect')
+    .data(self.data).transition().duration(2000).call(self.rectFunc)
+    //console.log(self.data)
+  
+  // Enter, exit, transition bars
+  //self.rects.enter().append('rect').call(self.rectFunc)
+  //self.rects.transition().duration(2000).call(self.rectFunc)
+  //self.rects.exit().remove()
+  //self.svg.selectAll('rect').transition().duration(2000).call(self.rectFunc)
+}
+
+// Update function: currently just adjusts highlighted element
+BarChart.prototype.update = function(highlighted) {
+  var self= this
+  self.data = y
+  //console.log(self.data);
+  self.highlighted = highlighted
+  self.draw()
+}
+
+
+
+
+// ******************** View code ***********************
+
+// BarView code will instantiate an entire new view (set of charts)
+var BarView = function(chartNum) {
+  var self = this
+  self.chartNumber = chartNum
+  self.obs = 20
+  self.charts = []
+  self.highlighted = 2
+  self.build()
+  //self.data = []
+}
+
+// Builf function
+BarView.prototype.build = function() {
+  var self = this
+  self.makeData()
+  self.makeCharts()
+  self.makeInteractive()
+}
+
+var j=[];
+  for(var i=0;i<datum.length;i++){
+        j[i]=i;
+        //console.log(datum[i].CostInDollars);
+}
+//console.log(j);
+//console.log(y)
+
+var max = 0.0
+
+for(var m=0;m<y.length;m++) {
+  if(y[m]>max) max=y[m];
+}
+
+//console.log(max);
+// Function to make data
+BarView.prototype.makeData = function(obs) {
+  
+  var self = this
+  self.data = []
+
+  d3.range(self.chartNumber).map(function(d,cn) {
+    var dat = []
+
+    d3.range(self.obs).map(function(d,i){
+    //console.log(self.charts);
+    
+      
+      dat.push({id:i, x:i*10, y:y[i+(20*cn)]*5})
+      //lol.push({id:i, x:i*10, y:(y[i+(20*cn)] / max) * 100})
+      //console.log(y[i+(20*cn)]);
+    })
+    self.data.push(dat)
+    //console.log(self.data);
+  })
+
+}
+
+// Function to make charts
+BarView.prototype.makeCharts = function() {
+  var self = this
+  d3.range(self.chartNumber).map(function(d){
+//console.log(self.data);
+    self.charts[d] = new BarChart({
+        highlighted:self.highlighted, 
+        data:self.data[d],
+        height:100, 
+        width:300
+     })
+  })
+  
+}
+//console.log(y[1]);
+// Function to apply interactivity
+BarView.prototype.makeInteractive = function() {
+  var self = this
+  d3.selectAll('rect').on('click', function(d) {
+    self.charts.map(function(chart){
+      //console.log(d);
+      chart.update(d.id)
+    })
+  }).attr("data-original-title",function(datum,i){
+    //console.log(i.id);
+    //console.log(datum);
+    return "Cost In Dollars: "+(y[i]); //self.charts[data];
+
+  });
+  
+}
+
+
+// ******************** This would be app code to instantiate view ************
+
+var myView = new BarView(12)
+
+$("rect").tooltip({
+    'container': 'body',
+    'placement': 'bottom'
+}); 
+
+  })
+
+
+
+})
+
+
+	</script>
+
+</body>
+</html>

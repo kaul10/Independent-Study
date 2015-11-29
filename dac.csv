@@ -1,0 +1,241 @@
+LocalHealthJusrisdictions,CurrentOrNeed,CapabilitiesOrPrograms,CostInDollars,Type,CostPerCapita,PopulationGroup,PopulationRange
+A,current,Assessment,164.4444444,Capabilities,0.1845,1,>400000
+B,current,Assessment,154624.4444,Capabilities,0.74825,2,200000-400000
+C,current,Assessment,258217.7778,Capabilities,1.1275,2,200000-400000
+D,current,Assessment,61561.11111,Capabilities,0.738,1,>400000
+E,current,Assessment,112628.8889,Capabilities,1.353,1,>400000
+F,current,Assessment,138027.7778,Capabilities,3.29025,1,>400000
+G,current,Assessment,693962.2222,Capabilities,1.54775,3,<200000
+H,current,Assessment,785386.6667,Capabilities,1.09675,3,<200000
+I,current,Assessment,164.4444444,Capabilities,0.1845,2,200000-400000
+J,current,Assessment,518815.5556,Capabilities,0.85075,3,<200000
+A,need,Assessment,43588.88889,Capabilities,2.0295,1,>400000
+B,need,Assessment,298662.2222,Capabilities,1.271,2,200000-400000
+C,need,Assessment,459503.3333,Capabilities,1.8655,2,200000-400000
+D,need,Assessment,330913.3333,Capabilities,3.16725,1,>400000
+E,need,Assessment,313088.8889,Capabilities,3.43375,1,>400000
+F,need,Assessment,236996.6667,Capabilities,5.5145,1,>400000
+G,need,Assessment,881415.5556,Capabilities,1.91675,3,<200000
+H,need,Assessment,1153568.889,Capabilities,1.517,3,<200000
+I,need,Assessment,164.4444444,Capabilities,0.1845,2,200000-400000
+J,need,Assessment,417105.5556,Capabilities,0.72775,3,<200000
+A,current,Emergency Preparedness,61825.55556,Capabilities,2.8085,1,>400000
+B,current,Emergency Preparedness,541784.4444,Capabilities,2.1525,2,200000-400000
+C,current,Emergency Preparedness,379452.2222,Capabilities,1.5785,2,200000-400000
+D,current,Emergency Preparedness,87433.33333,Capabilities,0.97375,1,>400000
+E,current,Emergency Preparedness,97751.11111,Capabilities,1.19925,1,>400000
+F,current,Emergency Preparedness,36850,Capabilities,1.01475,1,>400000
+G,current,Emergency Preparedness,667680,Capabilities,1.4965,3,<200000
+H,current,Emergency Preparedness,703690,Capabilities,0.99425,3,<200000
+I,current,Emergency Preparedness,12236.66667,Capabilities,0.2255,2,200000-400000
+J,current,Emergency Preparedness,493247.7778,Capabilities,0.82,3,<200000
+A,need,Emergency Preparedness,40040,Capabilities,1.886,1,>400000
+B,need,Emergency Preparedness,696361.1111,Capabilities,2.71625,2,200000-400000
+C,need,Emergency Preparedness,478265.5556,Capabilities,1.93725,2,200000-400000
+D,need,Emergency Preparedness,256714.4444,Capabilities,2.501,1,>400000
+E,need,Emergency Preparedness,223938.8889,Capabilities,2.51125,1,>400000
+F,need,Emergency Preparedness,32237.77778,Capabilities,0.902,1,>400000
+G,need,Emergency Preparedness,732328.8889,Capabilities,1.6195,3,<200000
+H,need,Emergency Preparedness,1168994.444,Capabilities,1.5375,3,<200000
+I,need,Emergency Preparedness,27477.77778,Capabilities,0.287,2,200000-400000
+J,need,Emergency Preparedness,572656.6667,Capabilities,0.9225,3,<200000
+A,current,Communication,138.317757,Capabilities,0.1845,1,>400000
+B,current,Communication,136548.5981,Capabilities,0.76875,2,200000-400000
+C,current,Communication,111708.4112,Capabilities,0.66625,2,200000-400000
+D,current,Communication,35392.52336,Capabilities,0.56375,1,>400000
+E,current,Communication,7661.682243,Capabilities,0.27675,1,>400000
+F,current,Communication,69000.93458,Capabilities,2.0295,1,>400000
+G,current,Communication,141326.1682,Capabilities,0.5125,3,<200000
+H,current,Communication,140721.4953,Capabilities,0.37925,3,<200000
+I,current,Communication,138.317757,Capabilities,0.1845,2,200000-400000
+J,current,Communication,138.317757,Capabilities,0.1845,3,<200000
+A,need,Communication,17423.36449,Capabilities,1.05575,1,>400000
+B,need,Communication,256893.4579,Capabilities,1.2915,2,200000-400000
+C,need,Communication,389378.5047,Capabilities,1.886,2,200000-400000
+D,need,Communication,240825.2336,Capabilities,2.7675,1,>400000
+E,need,Communication,10091.58879,Capabilities,0.3075,1,>400000
+F,need,Communication,72045.79439,Capabilities,2.1115,1,>400000
+G,need,Communication,141326.1682,Capabilities,0.5125,3,<200000
+H,need,Communication,397052.3364,Capabilities,0.72775,3,<200000
+I,need,Communication,138.317757,Capabilities,0.1845,2,200000-400000
+J,need,Communication,138.317757,Capabilities,0.1845,3,<200000
+A,current,Policy Development and Support,138.317757,Capabilities,0.1845,1,>400000
+B,current,Policy Development and Support,323876.6355,Capabilities,1.5785,2,200000-400000
+C,current,Policy Development and Support,142542.9907,Capabilities,0.80975,2,200000-400000
+D,current,Policy Development and Support,88924.29907,Capabilities,1.13775,1,>400000
+E,current,Policy Development and Support,27314.01869,Capabilities,0.52275,1,>400000
+F,current,Policy Development and Support,69000.93458,Capabilities,2.0295,1,>400000
+G,current,Policy Development and Support,88091.58879,Capabilities,0.3895,3,<200000
+H,current,Policy Development and Support,164233.6449,Capabilities,0.41,3,<200000
+I,current,Policy Development and Support,138.317757,Capabilities,0.1845,2,200000-400000
+J,current,Policy Development and Support,97942.05607,Capabilities,0.33825,3,<200000
+A,need,Policy Development and Support,66242.99065,Capabilities,3.53625,1,>400000
+B,need,Policy Development and Support,393057.0093,Capabilities,1.87575,2,200000-400000
+C,need,Policy Development and Support,345845.7944,Capabilities,1.69125,2,200000-400000
+D,need,Policy Development and Support,247757.9439,Capabilities,2.83925,1,>400000
+E,need,Policy Development and Support,154306.5421,Capabilities,2.091,1,>400000
+F,need,Policy Development and Support,75557.00935,Capabilities,2.20375,1,>400000
+G,need,Policy Development and Support,88091.58879,Capabilities,0.3895,3,<200000
+H,need,Policy Development and Support,408200.9346,Capabilities,0.74825,3,<200000
+I,need,Policy Development and Support,134717.757,Capabilities,0.78925,2,200000-400000
+J,need,Policy Development and Support,225963.5514,Capabilities,0.533,3,<200000
+A,current,Community Partnership Development,557.0093458,Capabilities,0.205,1,>400000
+B,current,Community Partnership Development,243884.1121,Capabilities,1.24025,2,200000-400000
+C,current,Community Partnership Development,372366.3551,Capabilities,1.804,2,200000-400000
+D,current,Community Partnership Development,197394.3925,Capabilities,2.30625,1,>400000
+E,current,Community Partnership Development,24529.90654,Capabilities,0.48175,1,>400000
+F,current,Community Partnership Development,26147.66355,Capabilities,0.8815,1,>400000
+G,current,Community Partnership Development,942666.3551,Capabilities,2.378,3,<200000
+H,current,Community Partnership Development,143315.8879,Capabilities,0.37925,3,<200000
+I,current,Community Partnership Development,105861.6822,Capabilities,0.66625,2,200000-400000
+J,current,Community Partnership Development,18423.36449,Capabilities,0.21525,3,<200000
+A,need,Community Partnership Development,41719.62617,Capabilities,2.28575,1,>400000
+B,need,Community Partnership Development,316236.4486,Capabilities,1.54775,2,200000-400000
+C,need,Community Partnership Development,618544.8598,Capabilities,2.88025,2,200000-400000
+D,need,Community Partnership Development,334617.757,Capabilities,3.772,1,>400000
+E,need,Community Partnership Development,139342.0561,Capabilities,1.9065,1,>400000
+F,need,Community Partnership Development,106468.2243,Capabilities,3.034,1,>400000
+G,need,Community Partnership Development,2390096.262,Capabilities,5.7605,3,<200000
+H,need,Community Partnership Development,436429.9065,Capabilities,0.779,3,<200000
+I,need,Community Partnership Development,134717.757,Capabilities,0.78925,2,200000-400000
+J,need,Community Partnership Development,57889.71963,Capabilities,0.27675,3,<200000
+A,current,Business Competencies,1576246.8,Capabilities,14.801,1,>400000
+B,current,Business Competencies,7887354,Capabilities,6.42675,2,200000-400000
+C,current,Business Competencies,11345470.2,Capabilities,9.25575,2,200000-400000
+D,current,Business Competencies,2422795.8,Capabilities,4.95075,1,>400000
+E,current,Business Competencies,3523921.5,Capabilities,8.14875,1,>400000
+F,current,Business Competencies,1223071.8,Capabilities,6.18075,1,>400000
+G,current,Business Competencies,28163276.1,Capabilities,12.218,3,<200000
+H,current,Business Competencies,28615447.2,Capabilities,7.39025,3,<200000
+I,current,Business Competencies,1640119.2,Capabilities,1.54775,2,200000-400000
+J,current,Business Competencies,9895968.6,Capabilities,2.9725,3,<200000
+A,need,Business Competencies,2333183.7,Capabilities,21.8325,1,>400000
+B,need,Business Competencies,8501271.6,Capabilities,6.9085,2,200000-400000
+C,need,Business Competencies,13256220.9,Capabilities,10.783,2,200000-400000
+D,need,Business Competencies,4130505.3,Capabilities,8.31275,1,>400000
+E,need,Business Competencies,3692818.2,Capabilities,8.528,1,>400000
+F,need,Business Competencies,3138402.3,Capabilities,15.58,1,>400000
+G,need,Business Competencies,29559946.8,Capabilities,12.8125,3,<200000
+H,need,Business Competencies,36162228.3,Capabilities,9.2865,3,<200000
+I,need,Business Competencies,2081554.8,Capabilities,1.9065,2,200000-400000
+J,need,Business Competencies,9685104,Capabilities,2.911,3,<200000
+A,current,Communicable Disease Control,255494.7,Programs,2.55225,1,>400000
+B,current,Communicable Disease Control,10311180,Programs,8.3435,2,200000-400000
+C,current,Communicable Disease Control,5959594.8,Programs,4.95075,2,200000-400000
+D,current,Communicable Disease Control,1448083.8,Programs,3.034,1,>400000
+E,current,Communicable Disease Control,2603070.6,Programs,6.068,1,>400000
+F,current,Communicable Disease Control,974722.2,Programs,4.961,1,>400000
+G,current,Communicable Disease Control,9404124.6,Programs,4.2025,3,<200000
+H,current,Communicable Disease Control,16350380.7,Programs,4.29475,3,<200000
+I,current,Communicable Disease Control,2708732.4,Programs,2.42925,2,200000-400000
+J,current,Communicable Disease Control,18407139.3,Programs,5.36075,3,<200000
+A,need,Communicable Disease Control,269203.5,Programs,2.67525,1,>400000
+B,need,Communicable Disease Control,10635856.2,Programs,8.59975,2,200000-400000
+C,need,Communicable Disease Control,7389940.8,Programs,6.0885,2,200000-400000
+D,need,Communicable Disease Control,2773471.8,Programs,5.6375,1,>400000
+E,need,Communicable Disease Control,4819285.8,Programs,11.08025,1,>400000
+F,need,Communicable Disease Control,1331207.1,Programs,6.71375,1,>400000
+G,need,Communicable Disease Control,10364041.5,Programs,4.6125,3,<200000
+H,need,Communicable Disease Control,22538144.4,Programs,5.85275,3,<200000
+I,need,Communicable Disease Control,4076552.4,Programs,3.567,2,200000-400000
+J,need,Communicable Disease Control,15700115.4,Programs,4.60225,3,<200000
+A,current,Chronic Disease and Injury Prevention,754.8,Programs,0.1845,1,>400000
+B,current,Chronic Disease and Injury Prevention,682920.6,Programs,0.72775,2,200000-400000
+C,current,Chronic Disease and Injury Prevention,1346088.9,Programs,1.26075,2,200000-400000
+D,current,Chronic Disease and Injury Prevention,584888.4,Programs,1.3325,1,>400000
+E,current,Chronic Disease and Injury Prevention,2094447.6,Programs,4.92,1,>400000
+F,current,Chronic Disease and Injury Prevention,1241850,Programs,6.273,1,>400000
+G,current,Chronic Disease and Injury Prevention,8132016.3,Programs,3.65925,3,<200000
+H,current,Chronic Disease and Injury Prevention,5700494.4,Programs,1.6195,3,<200000
+I,current,Chronic Disease and Injury Prevention,591151.2,Programs,0.6765,2,200000-400000
+J,current,Chronic Disease and Injury Prevention,1926295.5,Programs,0.72775,3,<200000
+A,need,Chronic Disease and Injury Prevention,307122,Programs,3.02375,1,>400000
+B,need,Chronic Disease and Injury Prevention,5505057.3,Programs,4.54075,2,200000-400000
+C,need,Chronic Disease and Injury Prevention,3353377.5,Programs,2.85975,2,200000-400000
+D,need,Chronic Disease and Injury Prevention,2060853.9,Programs,4.23325,1,>400000
+E,need,Chronic Disease and Injury Prevention,2914196.1,Programs,6.77525,1,>400000
+F,need,Chronic Disease and Injury Prevention,1710555.3,Programs,8.57925,1,>400000
+G,need,Chronic Disease and Injury Prevention,11353334.4,Programs,5.03275,3,<200000
+H,need,Chronic Disease and Injury Prevention,8968885.5,Programs,2.4395,3,<200000
+I,need,Chronic Disease and Injury Prevention,1353152.4,Programs,1.30175,2,200000-400000
+J,need,Chronic Disease and Injury Prevention,2797375.5,Programs,0.97375,3,<200000
+A,current,Environmental Public Health,367932.24,Programs,5.13525,1,>400000
+B,current,Environmental Public Health,8243796.6,Programs,9.6555,2,200000-400000
+C,current,Environmental Public Health,17418413.61,Programs,20.418,2,200000-400000
+D,current,Environmental Public Health,3908830.77,Programs,11.357,1,>400000
+E,current,Environmental Public Health,3007122.3,Programs,10.0655,1,>400000
+F,current,Environmental Public Health,1292652.27,Programs,9.39925,1,>400000
+G,current,Environmental Public Health,12424304.88,Programs,7.8925,3,<200000
+H,current,Environmental Public Health,36611623.62,Programs,13.571,3,<200000
+I,current,Environmental Public Health,2520432.72,Programs,3.2185,2,200000-400000
+J,current,Environmental Public Health,13445742.96,Programs,5.6785,3,<200000
+A,need,Environmental Public Health,469402.83,Programs,6.50875,1,>400000
+B,need,Environmental Public Health,11913894.72,Programs,13.8785,2,200000-400000
+C,need,Environmental Public Health,19914627.33,Programs,23.31875,2,200000-400000
+D,need,Environmental Public Health,5688969.39,Programs,16.45125,1,>400000
+E,need,Environmental Public Health,4620830.76,Programs,15.36475,1,>400000
+F,need,Environmental Public Health,1130220,Programs,8.241,1,>400000
+G,need,Environmental Public Health,12424308.39,Programs,7.8925,3,<200000
+H,need,Environmental Public Health,46758271.95,Programs,17.2815,3,<200000
+I,need,Environmental Public Health,3702867.48,Programs,4.64325,2,200000-400000
+J,need,Environmental Public Health,15220953.54,Programs,6.40625,3,<200000
+A,current,Maternal/Child/Family Health,285398.1,Programs,4.02825,1,>400000
+B,current,Maternal/Child/Family Health,25368040.62,Programs,29.3355,2,200000-400000
+C,current,Maternal/Child/Family Health,6367255.83,Programs,7.585,2,200000-400000
+D,current,Maternal/Child/Family Health,2225676.96,Programs,6.54975,1,>400000
+E,current,Maternal/Child/Family Health,423313.02,Programs,1.5785,1,>400000
+F,current,Maternal/Child/Family Health,720943.47,Programs,5.31975,1,>400000
+G,current,Maternal/Child/Family Health,25652031.21,Programs,16.113,3,<200000
+H,current,Maternal/Child/Family Health,7994962.17,Programs,3.10575,3,<200000
+I,current,Maternal/Child/Family Health,519.48,Programs,0.1845,2,200000-400000
+J,current,Maternal/Child/Family Health,10377230.76,Programs,4.428,3,<200000
+A,need,Maternal/Child/Family Health,261389.7,Programs,3.70025,1,>400000
+B,need,Maternal/Child/Family Health,26338450.32,Programs,30.45275,2,200000-400000
+C,need,Maternal/Child/Family Health,9750955.5,Programs,11.51075,2,200000-400000
+D,need,Maternal/Child/Family Health,3041400.96,Programs,8.8765,1,>400000
+E,need,Maternal/Child/Family Health,852522.84,Programs,2.98275,1,>400000
+F,need,Maternal/Child/Family Health,630381.96,Programs,4.674,1,>400000
+G,need,Maternal/Child/Family Health,28322239.14,Programs,17.76325,3,<200000
+H,need,Maternal/Child/Family Health,13976209.26,Programs,5.29925,3,<200000
+I,need,Maternal/Child/Family Health,519.48,Programs,0.1845,2,200000-400000
+J,need,Maternal/Child/Family Health,9710102.61,Programs,4.15125,3,<200000
+A,current,Access/Linkage with Clinical Health Care,114685.4545,Programs,6.15,1,>400000
+B,current,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,2,200000-400000
+C,current,Access/Linkage with Clinical Health Care,266191.8182,Programs,1.3735,2,200000-400000
+D,current,Access/Linkage with Clinical Health Care,38988.18182,Programs,0.615,1,>400000
+E,current,Access/Linkage with Clinical Health Care,4214.545455,Programs,0.23575,1,>400000
+F,current,Access/Linkage with Clinical Health Care,35185.45455,Programs,1.148,1,>400000
+G,current,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,3,<200000
+H,current,Access/Linkage with Clinical Health Care,4351576.364,Programs,6.32425,3,<200000
+I,current,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,2,200000-400000
+J,current,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,3,<200000
+A,need,Access/Linkage with Clinical Health Care,105492.7273,Programs,5.66825,1,>400000
+B,need,Access/Linkage with Clinical Health Care,67957.27273,Programs,0.48175,2,200000-400000
+C,need,Access/Linkage with Clinical Health Care,628356.3636,Programs,3.00325,2,200000-400000
+D,need,Access/Linkage with Clinical Health Care,254258.1818,Programs,2.993,1,>400000
+E,need,Access/Linkage with Clinical Health Care,180800,Programs,2.4805,1,>400000
+F,need,Access/Linkage with Clinical Health Care,161399.0909,Programs,4.62275,1,>400000
+G,need,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,3,<200000
+H,need,Access/Linkage with Clinical Health Care,6520762.727,Programs,9.389,3,<200000
+I,need,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,2,200000-400000
+J,need,Access/Linkage with Clinical Health Care,134.5454545,Programs,0.1845,3,<200000
+A,current,Vital Records,259.0909091,Programs,0.19475,1,>400000
+B,current,Vital Records,342067.2727,Programs,1.7015,2,200000-400000
+C,current,Vital Records,72439.09091,Programs,0.5125,2,200000-400000
+D,current,Vital Records,77557.27273,Programs,1.03525,1,>400000
+E,current,Vital Records,54995.45455,Programs,0.8815,1,>400000
+F,current,Vital Records,128521.8182,Programs,3.72075,1,>400000
+G,current,Vital Records,257728.1818,Programs,0.7995,3,<200000
+H,current,Vital Records,586440.9091,Programs,1.01475,3,<200000
+I,current,Vital Records,47480,Programs,0.39975,2,200000-400000
+J,current,Vital Records,344331.8182,Programs,0.72775,3,<200000
+A,need,Vital Records,11167.27273,Programs,0.7585,1,>400000
+B,need,Vital Records,385498.1818,Programs,1.89625,2,200000-400000
+C,need,Vital Records,106382.7273,Programs,0.656,2,200000-400000
+D,need,Vital Records,164401.8182,Programs,1.99875,1,>400000
+E,need,Vital Records,65066.36364,Programs,1.0045,1,>400000
+F,need,Vital Records,112382.7273,Programs,3.26975,1,>400000
+G,need,Vital Records,257728.1818,Programs,0.7995,3,<200000
+H,need,Vital Records,637339.0909,Programs,1.0865,3,<200000
+I,need,Vital Records,60134.54545,Programs,0.46125,2,200000-400000
+J,need,Vital Records,351824.5455,Programs,0.738,3,<200000
